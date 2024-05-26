@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Miroslav Popovich" />
+        <meta name="description" content="ResponsiveNav" />
+        <base href="/" />
+        <!-- STYLESHEET -->
+        <link rel="stylesheet" href="/style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet"/>
+        <link
+            rel="icon"
+            type="image/png"
+            href="https://res.cloudinary.com/diebeaf02/image/upload/v1708866095/Repos/miros-favicon-32x32.png" />
+        <!-- SCRIPT -->
+        <script src="/script.js" type="module"></script>
+        <title>ResponsiveNav</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav-data">
+                    <a href="#" class="nav-logo">
+                        <i class="ri-rocket-line"></i> MirosNav
+                    </a>
+                    <div class="nav-toggle" id="navToggle">
+                        <i class="ri-menu-line nav-burger"></i>
+                        <i class="ri-close-line nav-close"></i>
+                    </div>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li><a href="" class="nav-link">NavLink1</a></li>
+                        <li><a href="" class="nav-link">NavLink2</a></li>
+                        <!-- Dropdown 1 -->
+                        <li class="dropdown-item">
+                            <div class="nav-link">
+                               DropDown1 <i class="ri-arrow-down-s-fill dropdown-arrow"></i>
+                            </div>
+                            <ul class="dropdown-menu">
+                               <li>
+                                    <a href="#" class="dropdown-link">
+                                        DropDownLink1
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-link">
+                                        DropDownLink2
+                                    </a>
+                                </li> 
+                                <!-- Dropdown submenu -->
+                                <li class="dropdown-subitem">
+                                   <div class="dropdown-link">
+                                        SubDropDown1 <i class="ri-add-line dropdown-add"></i>
+                                   </div>
+                                   <ul class="dropdown-submenu">
+                                        <li>
+                                            <a href="#" class="dropdown-sublink">SubDropDownLink1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-sublink">SubDropDownLink2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-sublink">SubDropDownLink3</a>
+                                        </li>
+                                   </ul>
+                                </li>  
+                            </ul>
+                        </li>
+                        <li><a href="" class="nav-link">NavLink3</a></li>
+                         <!-- Dropdown 2 -->
+                         <li class="dropdown-item">
+                            <div class="nav-link">
+                                DropDown2 <i class="ri-arrow-down-s-fill dropdown-arrow"></i>
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li>
+                                     <a href="#" class="dropdown-link">
+                                        DropDownLink1
+                                     </a>
+                                 </li>
+                                 <li>
+                                     <a href="#" class="dropdown-link">
+                                        DropDownLink2
+                                     </a>
+                                 </li> 
+                                 <li>
+                                     <a href="#" class="dropdown-link">
+                                        DropDownLink3
+                                     </a>
+                                 </li>  
+                             </ul>
+                        </li>
+                        <li><a href="" class="nav-link">NavLink4</a></li>
+                        <!-- Nav Buttons -->
+                        <li class="flex-row">
+                            <div class="nav-button"><p>Btn1</p></div>
+                            <div class="nav-button">Btn2</div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </body>
+</html>
